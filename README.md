@@ -1,4 +1,4 @@
-<img src=".src/logo-casa-criativa">
+<img src="src/logo-casa-criativa.png">
 <strong>WorkshopDev Especial</strong><br>
 
 Página de web criada com HTML, CSS e Javascript para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
