@@ -163,12 +163,10 @@ section#ideias .idea {
 footer{
   /* padding-top: 20px; */
   text-align: center;
-  
   font-size: 14px;
   font-weight: regular;
   line-height: 18px;
   letter-spacing: 0.2px;
-
   color: #777
 }
 
@@ -194,14 +192,11 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
-
   width: 100vw;
   height: 100vw;
-  
   display: flex;
   position: absolute;
   justify-content: center;
-  
   background: #ff5E84;
 
   transition: 400ms;
