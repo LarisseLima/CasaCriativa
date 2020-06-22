@@ -1,141 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<!-- Responsável pela funcionalidade de Mostrar as Ideias -->
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ideias - Casa Criativa</title>
+{% extends "layout.html" %}
 
+{% set title = "Casa Moderna: Ideias" %}
+{% set css = "/ideias_styles.css" %}
+{% set bodyId = "page-ideas" %}
 
-</head>
+{% block content %}
+<div id="container">
 
-<body id="page-ideas">
+  <header>
+    <img src="../../src/logo-casa-criativa.png" alt="logo">
+    <nav>
+      <li><a href="/">Inicio</a></li>
+      <li><a href="#">Ideias</a></li>
+      <li><a href="#" onclick="onOff('#modal')">Nova Ideia</a></li>
+    </nav>
+  </header>
 
-    <div id="container">
-        <header>
-            <a href="/"></a>
-            <img src="/logo.png" alt="Imagem da Logomarca">
-            <nav>
-                <Li><a href="/">Início</a></Li>
-                <Li><a class="button" href="#" onclick="onOff()">Nova Ideia</a></Li>
-            </nav>
-        </header>
-        <section id="title">
-            <p>Em exibição</p>
-            <h1>Ideias</h1>
-        </section>
+  <section id="title">
+    <p> em exibição</p>
+    <h1>Ideias</h1>
+  </section>
 
-        <main>
-            <section id="ideias">
-                <div class="idea">
-                    <img src="https://image.flaticon.com/icons/svg/2729/2729007.svg"
-                        alt="Imagem de curso de Programação">
+  <main>
+    <section id="ideias">
+      {% include "everyideias.html" %}
+    </section>
+  </main>
 
-                    <div class="content">
-                        <h3>Cursos de Programação</h3>
-                        <p>Estudo</p>
-                        <div class="descriprion">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et veritatis iure vitae
-                            molestias officia nihil similique? Ut, reprehenderit necessitatibus vitae amet consectetur
-                            suscipit. Rerum minima quibusdam voluptas. Aperiam, porro!
-                        </div>
-                        <a href="#">Ir para a Ideia</a>
+  <footer>
+    Com ☕ <strong>Larisse</strong>
+  </footer>
 
-                    </div>
-                </div>
-
-                <div class="idea">
-                    <img src="https://image.flaticon.com/icons/svg/2729/2729005.svg" alt="Imagem de Exercícios">
-
-                    <div class="content">
-                        <h3>Exercícios</h3>
-                        <p>Saúde</p>
-                        <div class="descriprion">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et veritatis iure vitae
-                            molestias officia nihil similique? Ut, reprehenderit necessitatibus vitae amet consectetur
-                            suscipit. Rerum minima quibusdam voluptas. Aperiam, porro!
-                        </div>
-                        <a href="#">Ir para a Ideia</a>
-
-                    </div>
-                </div>
-
-                <div class="idea">
-                    <img src="https://image.flaticon.com/icons/svg/2729/2729027.svg" alt="Imagem de curso de Meditação">
-
-                    <div class="content">
-                        <h3>Mentalidade</h3>
-                        <p>Estudo</p>
-                        <div class="descriprion">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et veritatis iure vitae
-                            molestias officia nihil similique? Ut, reprehenderit necessitatibus vitae amet consectetur
-                            suscipit. Rerum minima quibusdam voluptas. Aperiam, porro!
-                        </div>
-                    </div>
-
-                    <div class="idea">
-                        <img src="https://image.flaticon.com/icons/svg/2729/2729032.svg" alt="Imagem de Karaolê">
-
-                        <div class="content">
-                            <h3>Karaokê</h3>
-                            <p>Diversão em família</p>
-                            <div class="descriprion">
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis et veritatis iure
-                                vitae
-                                molestias officia nihil similique? Ut, reprehenderit necessitatibus vitae amet
-                                consectetur
-                                suscipit. Rerum minima quibusdam voluptas. Aperiam, porro!
-                            </div>
-                            <a href="#">Ir para a Ideia</a>
-
-                        </div>
-                    </div>
-            </section>
-        </main>
-        <footer>
-            Com ☕, <a href="https://larisselima.github.io/" target="_blank">Larisse</a>
-        </footer>
-
-    </div>
-    <div id="modal" class="hide">
-        <div class="content">
-            <h1>Nova Ideia</h1>
-
-            <form action="/">
-
-                <div class="input-wrapper">
-                    <label for="title">Títuto da ideia</label>
-                    <input type="text" name="title">
-                </div>
-
-                <div class="input-wrapper">
-                    <label for="category">Categoria</label>
-                    <input type="text" name="category">
-                </div>
-
-                <div class="input-wrapper">
-                    <label for="image">Link da imagem</label>
-                    <input type="url" name="image">
-                </div>
-
-                <div class="input-wrapper">
-                    <label for="description">Digite uma descrição para essa ideia</label>
-                    <textarea name="description" cols="30" rows="10"></textarea>
-                </div>
-
-                <div class="input-wrapper">
-                    <label for="link">Link da ideia</label>
-                    <input type="url" name="link">
-
-                </div>
-                <a href="#" onclick="onOff()">Voltar</a>
-                <button>Salvar</button>
-
-            </form>
-        </div>
-    </div>
-
-    <script src="/scripts.js"></script>
-</body>
-
-</html>
+</div>
+{% endblock %}

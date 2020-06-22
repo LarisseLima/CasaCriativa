@@ -1,40 +1,43 @@
-<!-- Modal -->
+<!-- Responsável pela funcionalidade de Adicionar Ideia -->
+
 <div id="modal" class="hide">
-    <div class="content">
-        <h1>Nova ideia</h1>
 
-        <form action="/" method="POST" onsubmit="return checkFields(event)">
+  <div class="content">
 
-            <div class="input-wrapper">
-                <label for="title">Título da ideia</label>
-                <input type="text" name="title">
-            </div>
+    <h1>Nova Ideia</h1>
 
-            <div class="input-wrapper">
-                <label for="category">Categoria</label>
-                <input type="text" name="category">
-            </div>
+    <form action="/" method="POST" onsubmit=" return checkFields(event)">
 
-            <div class="input-wrapper">
-                <label for="image">Link da imagem</label>
-                <input type="url" name="image">
-            </div>
+      <div class="input-wrapper">
+        <label for="title">Título da Ideia</label>
+        <input type="text" name="title">
+      </div>
 
-            <div class="input-wrapper">
-                <label for="description">Digite uma descrição para essa ideia </label>
-                <textarea name="description" cols="30" rows="5" maxlength="100"
-                    placeholder="Max. 100 caracteres"></textarea>
-            </div>
+      <div class="input-wrapper">
+        <label for="category">Categoria</label>
+        <input type="text" name="category">
+      </div>
 
-            <div class="input-wrapper">
-                <label for="link">Link da ideia</label>
-                <input type="url" name="link">
-            </div>
+      <div class="input-wrapper">
+        <label for="image">Link do Ícone</label>
+        <input type="url" name="image">
+      </div>
 
-            <a href="#" onclick="onOff()">Voltar</a>
-            <button>Salvar</button>
+      <div class="input-wrapper">
+        <label for="description">Digite uma Descrição</label>
+        <textarea name="description" cols="20" rows="5"> </textarea>
+      </div>
 
-        </form>
+      <div class="input-wrapper">
+        <label for="link">Link da Ideia</label>
+        <input type="url" name="link">
+      </div>
 
-    </div>
+      <a href="#" onclick="onOff('#modal')">Voltar</a>
+      <button>Salvar</button>
+
+    </form>
+
+  </div>
+
 </div>
