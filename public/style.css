@@ -209,7 +209,6 @@ footer{
     /* O align-items alinha o eixo y*/
     /* O justify-content alinha o eixo x*/
     justify-content: center;
-
     transition: 400ms;
    
 }
@@ -219,8 +218,7 @@ footer{
 }
 
 #modal .content{
-        
-        color: white;
+    color: white;
 }
 
 #modal .content h1{
