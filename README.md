@@ -1,9 +1,17 @@
 <img src="src/logo-casa-criativa.png">
-<strong>WorkshopDev Especial</strong><br>
+<h2 align="center">WorkshopDev Especial Rocketseat</h2>
 
-Página de web criada com HTML, CSS e Javascript para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
+Página de web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
 
-Foram utilizados express, nunjucks, nodemon, SQLite, node.js.
+Linguagens utilizadaos:
+HTML<br>
+CSS<br>
+Javascript<br>
+Express<br>
+Nunjucks<br>
+Nodemon<br>
+SQLite<br>
+Node.js<br>
 
 <img src="prints/print1.png">
 <img src="prints/print2.png">
