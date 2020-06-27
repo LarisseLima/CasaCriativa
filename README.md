@@ -19,3 +19,5 @@ Node.js<br>
 
 
 [ LinkedIn ](https://www.linkedin.com/in/larisselima/)
+
+<h3 align="center">Desenvolvido por Larisse Lima :coffee: </h3>
