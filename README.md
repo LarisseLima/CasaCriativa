@@ -3,7 +3,7 @@
 
 Página de web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
 
-Linguagens utilizadaos:
+Linguagens utilizadaos:<br>
 HTML<br>
 CSS<br>
 Javascript<br>
