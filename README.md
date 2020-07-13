@@ -1,5 +1,5 @@
 <img src="src/logo-casa-criativa.png">
-<h2 align="center">WorkshopDev Especial Rocketseat</h2>
+<h2 align="center">WorkshopDev Rocketseat</h2>
 
 Página de web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
 
