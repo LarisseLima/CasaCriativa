@@ -1,4 +1,4 @@
-<h1> align="center" >
+<h1 align="center" >
     <img src="src/logo-casa-criativa.png">
 
 </h1>
