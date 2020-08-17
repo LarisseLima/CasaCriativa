@@ -8,10 +8,6 @@
 </h3>
 
 
-<h4 align="center"> 
-	🚧  Proffy 🏫 Em construção... 🚧
-</h4>
-
 <p align="center">
 	<a href="#-sobre-o-projeto">Sobre</a> •
 	<a href="#-layout">Layout</a> • 
