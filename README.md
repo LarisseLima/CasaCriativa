@@ -1,24 +1,89 @@
-<img src="src/logo-casa-criativa.png">
-<h2 align="center">WorkshopDev Rocketseat</h2>
+<h1> align="center" >
+    <img src="src/logo-casa-criativa.png">
 
-Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.<br>
+</h1>
 
-Linguagens utilizadas:
+<h3 align="center">
+   WorkshopDev Rocketseat - 
+</h3>
 
-HTML<br>
-CSS<br>
-Javascript<br>
-Express<br>
-Nunjucks<br>
-Nodemon<br>
-SQLite<br>
-Node.js<br>
+
+<h4 align="center"> 
+	🚧  Proffy 🏫 Em construção... 🚧
+</h4>
+
+<p align="center">
+	<a href="#-sobre-o-projeto">Sobre</a> •
+	<a href="#-layout">Layout</a> • 
+ 	<a href="#-como-executar-o-projeto">Como executar</a> • 
+  <a href="#-tecnologias">Tecnologias</a> • 
+ 	
+</p>
+
+
+## 💻 Sobre o projeto
+
+CasaCriativa - Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.
+
+---
+
+## 🎨 Layout
 
 <img src="prints/print1.png">
 <img src="prints/print2.png">
 <img src="prints/print3.png">
 
+---
 
-[ LinkedIn ](https://www.linkedin.com/in/larisselima/)
+## ⌨ Como executar o projeto
 
-<h3 align="center">Desenvolvido por Larisse Lima :coffee: </h3>
+```bash
+# Clonar o repositório
+git clone https://github.com/LarisseLima/CasaCriativa
+
+# Entrar no diretório
+cd nlw
+
+# Baixar as dependências
+npm i
+
+# Executar o servidor
+npm run dev
+```
+
+Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
+
+
+---
+
+## 🛠 Tecnologias
+
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
+
+
+- HTML
+- CSS
+- JavaScript
+- Node.js 
+- Nunjucks 
+- SQLite 
+- Nodemon
+- Express
+
+
+
+---
+
+Desenvolvido com 💜 por Larisse Lima >>>>> [Linkedin](https://www.linkedin.com/in/larisselima/)
+
+
+
+
+
+
+
+
+
+
+
+
