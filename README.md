@@ -19,7 +19,7 @@
 
 ## 💻 Sobre o projeto
 
-CasaCriativa - Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante a quarentena.
+CasaCriativa - Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante o período da  quarentena.
 
 ---
 
