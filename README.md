@@ -67,7 +67,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - Express
 
 
-
 ---
 <p align="center"><b>Feito com 	:coffee: <br> por Larisse Lima</b></p>
 
