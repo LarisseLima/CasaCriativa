@@ -19,7 +19,7 @@
 
 ## 💻 Sobre o projeto
 
-CasaCriativa - Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante o período da  quarentena.
+CasaCriativa - Página da web criada para armazenar sugestões de atividades que podem ser realizadas durante o período da  quarentena. Feita na NLW
 
 ---
 
@@ -56,7 +56,6 @@ Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
 
 O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-
 - HTML
 - CSS
 - JavaScript
@@ -69,14 +68,5 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
 ---
 <p align="center"><b>Feito com 	:coffee: <br> por Larisse Lima</b></p>
-
-
-
-
-
-
-
-
-
 
 
