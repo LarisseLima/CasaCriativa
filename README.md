@@ -26,8 +26,8 @@ CasaCriativa - Página da web criada para armazenar sugestões de atividades que
 ## 🎨 Layout
 
 <img src="prints/print1.png">
-<img src="prints/print2.png">
-<img src="prints/print3.png">
+<!-- <img src="prints/print2.png">
+<img src="prints/print3.png"> -->
 
 ---
 
@@ -49,7 +49,6 @@ npm run dev
 
 Feito isso, abra o seu navegador e acesse `http://localhost:5500/`
 
-
 ---
 
 ## 🛠 Tecnologias
@@ -64,7 +63,6 @@ O projeto foi desenvolvido utilizando as seguintes tecnologias:
 - SQLite 
 - Nodemon
 - Express
-
 
 ---
 <p align="center"><b>Feito com 	:coffee: <br> por Larisse Lima</b></p>
